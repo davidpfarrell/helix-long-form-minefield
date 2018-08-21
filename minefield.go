@@ -11,14 +11,14 @@ type Minefield struct {
 	mines map[string]*node
 }
 
-// MewMinefield
+// NewMinefield
 //
 func NewMinefield() *Minefield {
 	mf := &Minefield{mines: map[string]*node{}}
 	return mf
 }
 
-// MewMinefieldWithMines
+// NewMinefieldWithMines
 //
 func NewMinefieldWithMines(mines []*Mine) *Minefield {
 	mf := NewMinefield()
