@@ -15,9 +15,9 @@ func TestMineZero(t *testing.T) {
 	assertStringEqual(t, m.String(), "Mine{ X: 0, Y: 0, P: 0 }", "Mine.String()")
 }
 
-// TestMinePostive
+// TestMinePositive
 //
-func TestMinePostive(t *testing.T) {
+func TestMinePositive(t *testing.T) {
 	m := NewMine(1.2, 2.3, 3.4)
 	assertFloat64Equal(t, m.X, 1.2, "Mine.X")
 	assertFloat64Equal(t, m.Y, 2.3, "Mine.Y")
