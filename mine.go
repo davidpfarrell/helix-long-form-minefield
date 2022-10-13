@@ -40,7 +40,7 @@ func NewMine(x, y, p float64) *Mine {
 // Determine if explosive power is strong enough to reach target mine
 // NOTE: Assuming "straight-line distance" to mean a radius from triggered mine
 // NOTE: Precision errors abounds - Seems like it would be impossible to automate a test against this challenge
-//∂
+//
 func (m *Mine) CanReach(target *Mine) bool {
 	// Using A^2 + B^2 = C^2 to compute distance between mines
 	//
